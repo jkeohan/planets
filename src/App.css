@@ -1,0 +1,80 @@
+* {
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+/* HEADER */
+
+header {
+  height:500px;
+}
+
+header nav {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height:75px;
+  background-color: #aaa;
+}
+
+header nav .logo {
+  color: white;
+  padding-left:30px;
+  text-align: center;
+  font-size: 2em;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav li a {
+   padding: 0 30px;
+    display: block;
+    text-decoration: none;
+    color:white;
+}
+
+.heroShot {
+  /*background: url(http://solarviews.com/huge/misc/solarsystem.jpg) no-repeat;*/
+  /*height alone with leave empty space top/bottom of pic*/
+  max-height:500px;
+}
+
+.heroShot img {
+  object-fit:contain;
+  width: 100%;
+  height: 100%;
+}
