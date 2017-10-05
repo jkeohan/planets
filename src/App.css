@@ -41,14 +41,14 @@ ul {
 /* HEADER */
 
 header {
-  height:500px;
+  height:100%;
 }
 
 header nav {
   display:flex;
   justify-content: space-between;
   align-items: center;
-  height:75px;
+  height:50px;
   background-color: #aaa;
 }
 
@@ -57,6 +57,8 @@ header nav .logo {
   padding-left:30px;
   text-align: center;
   font-size: 2em;
+  /*after adjusting the height of nav to be 50px the logo was higher than before*/
+ /* height:50px;*/
 }
 
 header nav ul {
@@ -75,12 +77,31 @@ header nav li a {
   /*background: url(http://solarviews.com/huge/misc/solarsystem.jpg) no-repeat;*/
   /*height alone with leave empty space top/bottom of pic*/
   max-height:500px;
+  background-color: #e2dbd1;
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 80%);
+}
+
+.heroShot .quote {
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 80%);
+  background-color: #cac3b9;
 }
 
 .heroShot img {
   object-fit:contain;
   width: 100%;
   height: 100%;
+ -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+ 
+}
+
+.heroShot blockquote {
+  margin: 0;
+  display:inline-block;
+  border-left:none;
+  padding: 10px 20px;
+  font-size: 17.5px;
+  /*background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 80%);*/
+    /* border-left: 5px solid #eee; */
 }
 
 /* MAIN */
@@ -92,22 +113,49 @@ main {
 
 .allPlanetsSmall {
   background-repeat: no-repeat;
-    height: 100px;
+  background-size: 350px;
+  height: 200px;
+  width: 100%;
+  display: inline-block;
+  background-position: center;
+}
+
+.mwgalaxySmall {
+  background-repeat: no-repeat;
+    height: 200px;
     width: 100%;
     display: inline-block;
     background-position: center;
 }
 
+.universeSmall {
+  background-repeat: no-repeat;
+  background-size: 275px;
+  height: 200px;
+  width: 100%;
+  display: inline-block;
+  background-position: center;
+}
+
 hr {
-    border-top: 2px solid #C3C3C3;
-    width: 60px;
-    margin:2em auto;
-    transition: width 0.25s ease-out;
+  border-top: 2px solid #C3C3C3;
+  width: 60px;
+  margin:2em auto;
+  transition: width 0.25s ease-out;
 }
 
 #allPlanets p {
   letter-spacing: 1.5px;
 }
 
+#allPlanets Button {
+  margin: 2em;
+}
 
 
+
+@media (min-width: 992px)
+  grid.less:85
+  .container {
+  width: 1050px;
+}
