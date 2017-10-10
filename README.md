@@ -39,9 +39,7 @@ function HelloWorldComponent() {
 **Resolution**: 
 
 **Issue**: Trying to bleed the heroshot into the main section</br>
-**Resolution**: 
-
-- This worked if applied to the img tag but not to the degree I'm looking for.  This was pulled from [SO](https://stackoverflow.com/questions/19713813/fade-image-to-transparent-like-a-gradient) bum I'm not familiar with mask-image property.  
+**Resolution**: The following worked only to apply a gradient to image and needed to be applied to img tag.  This was pulled from [SO](https://stackoverflow.com/questions/19713813/fade-image-to-transparent-like-a-gradient) and I need to do some more research on using mask-image property as I've never heard of it before this moment.  
 
 ```
 .heroShot img {
@@ -51,7 +49,7 @@ function HelloWorldComponent() {
 
 <img src="images/imageBleed-almost.png" width="500">
 
-- If a `linear-gradient` is also applied to the `header` then this achieves the effect I'm looking for. 
+If a `linear-gradient` is also applied simultaneously to the `header` then this achieves the effect I'm looking for. 
 
 ```
 .heroShot {
