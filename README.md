@@ -48,7 +48,8 @@ function HelloWorldComponent() {
  	-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)))
 }
 ```
-![Alt text](images/imageBleed-almost.png =100X20)
+
+<img src="images/imageBleed-almost.png" width="48">
 
 - If a `linear-gradient` is also applied to the `header` then this achieves the effect I'm looking for. 
 
