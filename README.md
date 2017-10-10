@@ -41,18 +41,16 @@ function HelloWorldComponent() {
 **Issue**: Trying to bleed the heroshot into the main section</br>
 **Resolution**: 
 
-- 1) This worked if applied to the img tag but not to the degree I'm looking for.  This was pulled from [SO](https://stackoverflow.com/questions/19713813/fade-image-to-transparent-like-a-gradient) bum I'm not familiar with mask-image property.  
+- This worked if applied to the img tag but not to the degree I'm looking for.  This was pulled from [SO](https://stackoverflow.com/questions/19713813/fade-image-to-transparent-like-a-gradient) bum I'm not familiar with mask-image property.  
 
 ```
 .heroShot img {
  	-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)))
 }
 ```
+![Alt text](images/imageBleed-almost.png = 100X20)
 
-
-<img src="images/imageBleed-almost.png" alt="Drawing" style="width: 50px height: 50px"/>
-
-- 2) If a `linear-gradient` is also applied to the `header` then this achieves the effect I'm looking for. 
+- If a `linear-gradient` is also applied to the `header` then this achieves the effect I'm looking for. 
 
 ```
 .heroShot {
