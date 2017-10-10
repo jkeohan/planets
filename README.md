@@ -49,7 +49,7 @@ function HelloWorldComponent() {
 }
 ```
 
-<img src="images/imageBleed-almost.png" width="400">
+<img src="images/imageBleed-almost.png" width="500">
 
 - If a `linear-gradient` is also applied to the `header` then this achieves the effect I'm looking for. 
 
@@ -58,6 +58,6 @@ function HelloWorldComponent() {
 	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 80%);
 }
 ```
-![Alt text](images/imageBleed-done.png)
+<img src="images/imageBleed-done.png" width="500">
 
 I'd still like to limit the range of bleed to a shorter vertical so that the planets maintain most of their vibrant colors. 
