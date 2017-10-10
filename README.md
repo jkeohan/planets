@@ -58,6 +58,6 @@ function HelloWorldComponent() {
 	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 80%);
 }
 ```
-![Alt text](images/imageBleed-done.png?raw=true "Title")
+![Alt text](images/imageBleed-done.png?raw=true)
 
 I'd still like to limit the range of bleed to a shorter vertical so that the planets maintain most of their vibrant colors. 
