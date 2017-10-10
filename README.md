@@ -50,7 +50,7 @@ function HelloWorldComponent() {
 ```
 
 
-<img src="images/imageBleed-almost.png" alt="Drawing" style="width: 200px height: 50px"/>
+<img src="images/imageBleed-almost.png" alt="Drawing" style="width: 50px height: 50px"/>
 
 - 2) If a `linear-gradient` is also applied to the `header` then this achieves the effect I'm looking for. 
 
