@@ -49,7 +49,8 @@ function HelloWorldComponent() {
 }
 ```
 
-![Alt text](images/imageBleed-almost.png?raw=true "Title")
+
+<img src="images/imageBleed-almost.png" alt="Drawing" style="width: 200px;"/>
 
 - 2) If a `linear-gradient` is also applied to the `header` then this achieves the effect I'm looking for. 
 
