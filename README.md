@@ -23,7 +23,7 @@ For the planets view I was looking to do something like what my colleague J.Silv
 
 Here is the mockup:
 
-![](https://git.generalassemb.ly/raw/nyc-wdi-ada/HW_U01_D04_CSS-Saturn/master/jpegs/saturn-desktop.jpg?token=AAAA9dUudBJQWKm_7wJ7SeuroWXVRzOJks5Z29TgwA%3D%3D)
+![](https://git.generalassemb.ly/raw/nyc-wdi-ada/HW_U01_D04_CSS-Saturn/master/jpegs/saturn-desktop.jpg)
 
 ### Issues & Resolution
 
