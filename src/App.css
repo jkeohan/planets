@@ -44,7 +44,7 @@ header {
   height:100%;
 }
 
-header nav {
+nav {
   display:flex;
   justify-content: space-between;
   align-items: center;
@@ -52,7 +52,7 @@ header nav {
   background-color: #aaa;
 }
 
-header nav .logo {
+nav .logo {
   color: white;
   padding-left:30px;
   text-align: center;
@@ -61,12 +61,12 @@ header nav .logo {
  /* height:50px;*/
 }
 
-header nav ul {
+nav ul {
   list-style: none;
   display: flex;
 }
 
-header nav li a {
+nav li a {
    padding: 0 30px;
     display: block;
     text-decoration: none;
@@ -111,30 +111,25 @@ main {
   padding-top: 100px;
 }
 
-.allPlanetsSmall {
-  background-repeat: no-repeat;
-  background-size: 350px;
-  height: 200px;
-  width: 100%;
+.investigate {
+   height: 150px;
+     width: 100%;
+      background-repeat: no-repeat;
   display: inline-block;
   background-position: center;
+}
+
+.allPlanetsSmall {
+  /*background-size: 350px;*/
+  background-size: 100%;
 }
 
 .mwgalaxySmall {
-  background-repeat: no-repeat;
-    height: 200px;
-    width: 100%;
-    display: inline-block;
-    background-position: center;
+  background-size: 65%;
 }
 
 .universeSmall {
-  background-repeat: no-repeat;
-  background-size: 275px;
-  height: 200px;
-  width: 100%;
-  display: inline-block;
-  background-position: center;
+  background-size: 75%;
 }
 
 hr {
