@@ -51,9 +51,9 @@ function HelloWorldComponent() {
 **Resolution**: 
 
 **Issue**: Trying to bleed the heroshot into the main section</br>
-**Resolution**: 
 
-This worked if applied to the img tag but not to the degree I'm looking for.  This was pulled from [SO](https://stackoverflow.com/questions/19713813/fade-image-to-transparent-like-a-gradient) bum I'm not familiar with mask-image property.  
+**Resolution**: The following worked only to apply a gradient to image and needed to be applied to img tag.  This was pulled from [SO](https://stackoverflow.com/questions/19713813/fade-image-to-transparent-like-a-gradient) and I need to do some more research on using mask-image property as I've never heard of it before this moment.  
+>>>>>>> 2f122339b7597312a74e9963d79a932c410660b6
 
 ```
 .heroShot img {
@@ -61,15 +61,18 @@ This worked if applied to the img tag but not to the degree I'm looking for.  Th
 }
 ```
 
-![Alt text](images/imageBleed-almost.png?raw=true "Title")
+<img src="images/imageBleed-almost.png" align="center" width="500">
 
-If a `linear-gradient` is also applied to the `header` then this achieves the effect I'm looking for. 
+If a `linear-gradient` is also applied simultaneously to the `header` then this achieves the effect I'm looking for. 
+>>>>>>> 2f122339b7597312a74e9963d79a932c410660b6
 
 ```
 .heroShot {
 background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 80%);
 }
 ```
-![Alt text](images/imageBleed-done.png?raw=true "Title")
+<img src="images/imageBleed-done.png" width="500">
+
 
 I'd still like to limit the range of bleed to a shorter vertical so that the planets maintain most of their vibrant colors. Also removing the mask-image defined on img kills the gradient altogether.  Not sure how the linear-gradient is used to compliment the mask-image and why one is needed for the other to take affect. 
+
